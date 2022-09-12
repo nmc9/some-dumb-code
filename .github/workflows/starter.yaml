@@ -1,5 +1,6 @@
 name: Node.js CI
-
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 on:
   push:
     branches: [ main ]
